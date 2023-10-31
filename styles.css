@@ -1,0 +1,64 @@
+<style>
+  .text-box h3:contains("Paint me pink (color:pink)") {
+    color: pink;
+  }
+
+  .text-box p:contains("Paint me grey (color:grey)") {
+    color: grey;
+  }
+
+  .text-box p:contains("Paint me red (color:red)") {
+    color: red;
+  }
+
+  .text-box p:contains("Paint me green (color:green)") {
+    color: green;
+  }
+
+  .text-box p.yellow:contains("Paint me yellow (color:yellow)") {
+    color: yellow;
+  }
+</style>
+
+<style>
+        li:nth-child(odd):hover {
+            background-color: lightblue;
+        }
+
+        li:nth-child(even):hover {
+            background-color: lightgreen;
+        }
+
+        li:not(.completed):hover {
+            font-weight: bold;
+        }
+
+        li:active {
+            transform: scale(1.1);
+        }
+
+        li:focus {
+            outline: 2px solid orange;
+        }
+
+        /* Structural Pseudo-classes */
+        li:first-child {
+            color: blue;
+        }
+
+        li:last-child {
+            color: red;
+        }
+
+        li:nth-child(3n) {
+            color: purple;
+        }
+
+        li:nth-child(4n) {
+            text-decoration: line-through;
+        }
+
+        li:empty {
+            display: none;
+        }
+    </style>
