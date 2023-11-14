@@ -1,4 +1,4 @@
-<style>
+
   .text-box h3:contains("Paint me pink (color:pink)") {
     color: pink;
   }
@@ -18,9 +18,9 @@
   .text-box p.yellow:contains("Paint me yellow (color:yellow)") {
     color: yellow;
   }
-</style>
 
-<style>
+
+
         li:nth-child(odd):hover {
             background-color: lightblue;
         }
@@ -61,4 +61,25 @@
         li:empty {
             display: none;
         }
-    </style>
+   
+@font-face {
+    font-family: "Tangerine";
+    src: url(fonts/Tangerine-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Tangerine";
+    src: url(fonts/Tangerine-Bold.ttf);
+    font-weight: 700;
+
+}
+.text-reg {
+    font-family: "Tangerine";
+    font-weight: 400;
+}
+.text-bold
+{
+    font-family: "Tangerine";
+    font-weight: 700;
+    white-space: pre-wrap;
+}
