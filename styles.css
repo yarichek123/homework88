@@ -1,85 +1,84 @@
 
-  .text-box h3:contains("Paint me pink (color:pink)") {
-    color: pink;
-  }
-
-  .text-box p:contains("Paint me grey (color:grey)") {
-    color: grey;
-  }
-
-  .text-box p:contains("Paint me red (color:red)") {
+li:nth-child(1){
     color: red;
-  }
-
-  .text-box p:contains("Paint me green (color:green)") {
+    font-family:'Tangerine' ,
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+} 
+li:nth-child(2){
     color: green;
-  }
-
-  .text-box p.yellow:contains("Paint me yellow (color:yellow)") {
-    color: yellow;
-  }
-
-
-
-        li:nth-child(odd):hover {
-            background-color: lightblue;
-        }
-
-        li:nth-child(even):hover {
-            background-color: lightgreen;
-        }
-
-        li:not(.completed):hover {
-            font-weight: bold;
-        }
-
-        li:active {
-            transform: scale(1.1);
-        }
-
-        li:focus {
-            outline: 2px solid orange;
-        }
-
-        /* Structural Pseudo-classes */
-        li:first-child {
-            color: blue;
-        }
-
-        li:last-child {
-            color: red;
-        }
-
-        li:nth-child(3n) {
-            color: purple;
-        }
-
-        li:nth-child(4n) {
-            text-decoration: line-through;
-        }
-
-        li:empty {
-            display: none;
-        }
-   
-@font-face {
-    font-family: "Tangerine";
-    src: url(fonts/Tangerine-Regular.ttf);
-    font-weight: 400;
-}
-@font-face {
-    font-family: "Tangerine";
-    src: url(fonts/Tangerine-Bold.ttf);
-    font-weight: 700;
-
-}
-.text-reg {
-    font-family: "Tangerine";
-    font-weight: 400;
-}
-.text-bold
+    font-family:'Tangerine' ,
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+} 
+li:nth-child(3)
 {
-    font-family: "Tangerine";
-    font-weight: 700;
-    white-space: pre-wrap;
+    color:yellow;
+    font-family:'Tangerine' ,
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+} 
+
+li:nth-child(4){
+    color:orange;
+    font-family:'Tangerine' ,
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+} 
+li:nth-child(5){
+    color:skyblue;
+    font-family:'Tangerine' ,
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+} 
+h2{
+    color: pink;
+    font-family:'Tangerine' 
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+}
+h3:nth-child(2){
+    color: pink;
+    font-family:'Tangerine' 
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+}
+h4{
+    color: pink;
+    font-family:'Tangerine' 
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+}
+h5{
+    color: pink;
+    font-family:'Tangerine' 
+    sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
 }
